@@ -2,6 +2,8 @@
 
 A minimal Jekyll blog (default `minima` theme) built for GitHub Pages via GitHub Actions.
 
+Confirmed destination: `github.com/mavenius/testblog`, published at `https://mavenius.github.io/testblog/`.
+
 ## Structure
 
 - `_config.yml` — site config (title, theme, plugins)
@@ -11,15 +13,12 @@ A minimal Jekyll blog (default `minima` theme) built for GitHub Pages via GitHub
 
 ## Publishing this repo to GitHub Pages (one-time setup)
 
-1. Create a new GitHub repository and push this directory's contents to its `main` branch:
+1. Create a new empty GitHub repository at `github.com/mavenius/testblog`, then push this directory's contents to its `main` branch:
    ```
-   git init
-   git add .
-   git commit -m "Initial Jekyll blog"
-   git branch -M main
-   git remote add origin <repo-url>
+   git remote add origin https://github.com/mavenius/testblog.git
    git push -u origin main
    ```
+   (This directory is already a git repo with the scaffold committed on `main`.)
 2. In the repo, go to **Settings → Pages**.
 3. Under **Build and deployment → Source**, select **GitHub Actions** (not "Deploy from a branch").
 4. Push to `main` (or re-run the `Deploy Jekyll site to Pages` workflow from the Actions tab). The workflow builds the site and deploys it.
