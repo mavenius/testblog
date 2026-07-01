@@ -1,0 +1,13 @@
+title: Aveni Blog
+description: Engineering notes and updates from the Aveni team.
+theme: minima
+plugins:
+  - jekyll-feed
+
+markdown: kramdown
+future: false
+
+# Set to the repo name for project-page URLs (e.g. https://<user>.github.io/<repo>),
+# or leave blank if this repo is served from a custom domain / user site (<user>.github.io).
+baseurl: ""
+url: ""
