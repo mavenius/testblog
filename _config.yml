@@ -7,5 +7,5 @@ plugins:
 markdown: kramdown
 future: false
 
-baseurl: "/testblog"
-url: "https://mavenius.github.io"
+baseurl: ""
+url: "https://testblog.pages.dev"
